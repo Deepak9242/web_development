@@ -1,0 +1,17 @@
+
+
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+table{
+    width:40%;
+    min-width: 300px;
+}
+.text{
+    color:rgb(16, 115, 222);
+}
+
