@@ -1,0 +1,109 @@
+<!--
+author: Deepak Sharma
+description: To-Do List web app using HTML,CSS & JS
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@457&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+    <div class="center">
+        <h1 class="display-1" style="text-align: center;">To-Do App</h1>
+        <hr>
+
+        <hr>
+        <table style="margin: auto;">
+            <tr>
+                <td>
+                    <div class="form-group">
+                        <form action="#" onsubmit="add_memo()">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label for="date">Date:</label>
+                                    </td>
+                                    <td>
+                                        <input type="date" name="" id="date"> <br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="topic">Topic:</label>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="" id="topic"> <br>
+                                    </td>
+                                </tr>
+                                <tr VALIGN='TOP'>
+                                    <td colspan="2">
+                                        <hr>
+                                        <label for="description">Description:</label>
+                                        <br>
+                                        <textarea name="" id="description" cols="30" rows="10"></textarea> <br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+
+                                    </td>
+                                    <td>
+                                        <input class="btn btn-outline-success" type="submit" value="submit">
+                                        <input class="btn btn-outline-danger" type="reset" value="reset">
+                                    </td>
+                                </tr>
+                            </table>
+
+
+
+
+
+
+                        </form>
+                    </div>
+                </td>
+                <td>
+                    <div class="sep"></div>
+                </td>
+                <td style="vertical-align: top;">
+                    <div id='list_container'>
+                        <div>
+
+                            <h4 style="width: 300px; text-align: center;font-family: 'Quicksand', sans-serif;">List</h4>
+                            <hr>
+                        </div>
+                        <ul id='list' class="list-group scrollbar-near-moon">
+
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <hr>
+        <p style="text-align: center;"><mark>
+                *Click on the List Item to delete it from the list.
+            </mark></p>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
