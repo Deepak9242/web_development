@@ -1,0 +1,20 @@
+[
+    {
+        "key":1,
+        "Defect_Category":"UI",
+        "Description": "Submit Button coming to the extreme left.Refer to Screenshot",
+        "Priority":"2",
+        "Status":"open",
+        "Close":"false"
+
+    },
+    {
+        "key":2,
+        "Defect_Category":"functional",
+        "Description": "Submit Button coming to the extreme left.Refer to Screenshot",
+        "Priority":"1",
+        "Status":"open",
+        "Close":"false"
+
+    }
+]
